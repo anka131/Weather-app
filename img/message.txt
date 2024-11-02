@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>activity5corrections</title>
+
+<style>
+
+    /* section-header */
+
+            /* main div */
+.body{                                
+    display: flex;
+    height: 60px;
+    background-color: black;
+    align-items: center;
+}
+
+           /* structure */
+.Left-Section{  
+    display: flex;
+    flex-direction: row;  
+    flex: 1; 
+    margin-left: 5px;
+    border-width: 1px;
+    border-style: double;
+    height: 41px;
+    
+    
+}
+.Middle-Section{
+    display: flex;
+    flex-direction: row;  
+    flex: 2; 
+    justify-content: center;
+    border-width: 1px;
+    border-style: double;
+    height: 41px;
+    width: 0;
+    
+}
+.Right-Section{
+    display: flex;
+    flex-direction: row;  
+    flex: 1; 
+    margin-right: 5px;
+    justify-content: right;
+    border-width: 1px;
+    border-style: double;
+    height: 41px;
+    
+}
+
+
+           /* right sections */
+.menu-bar{
+    width: 30px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 3px;
+    
+   
+}
+.youtube-icon{
+    width: 100px;
+    height: 30px;
+    margin-top: 3px;
+    border-radius: 5px;
+    
+}
+
+           /* left section */
+.magnifying-glass{
+    width: 37px;
+    margin-left: -1px;
+    border-width: 1px;
+    border-style: double;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: grey;
+    margin-top: 3px;
+    
+}
+.input-bar{
+    height: 28px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-color: grey;
+    border-width: 1px;
+    border-style: double;
+    width: 500px; 
+    margin-top: 3px;  
+}
+.input-bar::placeholder{
+    font-size: larger;
+    padding-left: 25px;
+}
+
+
+          /* right section */
+.video-add{
+    width: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    margin-top: 3px;
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}        
+.Push-Notification{
+    width: 28px;
+    margin-right: 25px;
+    border-radius: 15px;
+    margin-top: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    
+}
+.profile{
+    width: 30px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+                                     /* section-body */
+
+.photo1{
+    width: 300px;
+}
+.photo2{
+    width: 30px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: double;
+    border-color: grey;
+}
+
+
+/* All-photo-and-html-Div */
+
+.All-photo-and-html-Div{
+display: flex;
+
+}
+
+/* html div only */
+
+.html1{
+    font-weight: bold;
+    margin-left: 5px;
+}
+.html2,.html3{
+font-family: 'Times New Roman', Times, serif;
+font-size: medium;
+color: grey;
+width: 280px;
+margin-left: 5px;
+}
+
+/* Full-Div */
+
+.Full-Div{
+    margin-top: 10px;
+    
+
+    
+}
+
+/* section body */
+
+.section-body{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px  ;
+    margin-top: 10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<section>
+    <div class="body">
+
+        <div class="Left-Section">
+    
+            <div>
+                <img class="menu-bar" src="Hamburger_icon.svg.png">
+              </div>
+          
+              <div>
+                  <img class="youtube-icon" src="YoutubeIcon.jpg">
+              </div>
+    
+        </div>
+    
+        <div class="Middle-Section" >
+            
+                <input class="input-bar" text="placeholder" placeholder="Search">
+                <div>
+                    <img class="magnifying-glass" src="magnifying-glass-icon.jpg">
+                </div>
+            
+            
+          
+    
+        </div>
+    
+    
+        <div class="Right-Section">
+    
+            <div>
+                <img class="video-add" src="Video-camera-add.webp">
+            </div>
+            <div>
+                <img class="Push-Notification" src="push-notification.png">
+            </div> 
+            <div>
+                <img class="profile" src="channels4_profile (1).jpg">
+            </div> 
+    
+        </div>
+    
+    
+    
+    </div>
+</section>
+
+
+ 
+<!-- section body -->
+
+ <section class="section-body">
+
+    <div class="Full-Div">
+        <div >
+            <img class="photo1" src="hq720 (1).webp">
+        </div>
+      
+        <div class="All-photo-and-html-Div">
+          <div>
+              <img class="photo2" src="channels4_profile (1).jpg">
+          </div>
+      
+          <!--  html div only  -->
+          <div>
+              <div class="html1">
+                  HTML-Prophecy
+               </div>
+               <div class="html2">
+                 tough times never last, but strong people do!!
+               </div>
+               <div class="html3">
+                 22k views . last year
+               </div>
+          </div>
+         
+        </div>
+    </div>
+
+    <div class="Full-Div">
+        <div >
+            <img class="photo1" src="hq720 (1).webp">
+        </div>
+      
+        <div class="All-photo-and-html-Div">
+          <div>
+              <img class="photo2" src="channels4_profile (1).jpg">
+          </div>
+      
+          <!--  html div only  -->
+          <div>
+              <div class="html1">
+                  HTML-Prophecy
+               </div>
+               <div class="html2">
+                 tough times never last, but strong people do!!
+               </div>
+               <div class="html3">
+                 22k views . last year
+               </div>
+          </div>
+         
+        </div>
+    </div>
+    
+    
+    <div class="Full-Div">
+        <div >
+            <img class="photo1" src="hq720 (1).webp">
+        </div>
+      
+        <div class="All-photo-and-html-Div">
+          <div>
+              <img class="photo2" src="channels4_profile (1).jpg">
+          </div>
+      
+          <!--  html div only  -->
+          <div>
+              <div class="html1">
+                  HTML-Prophecy
+               </div>
+               <div class="html2">
+                 tough times never last, but strong people do!!
+               </div>
+               <div class="html3">
+                 22k views . last year
+               </div>
+          </div>
+         
+        </div>
+    </div>
+    
+    
+    <div class="Full-Div">
+        <div >
+            <img class="photo1" src="hq720 (1).webp">
+        </div>
+      
+        <div class="All-photo-and-html-Div">
+          <div>
+              <img class="photo2" src="channels4_profile (1).jpg">
+          </div>
+      
+          <!--  html div only  -->
+          <div>
+              <div class="html1">
+                  HTML-Prophecy
+               </div>
+               <div class="html2">
+                 tough times never last, but strong people do!!
+               </div>
+               <div class="html3">
+                 22k views . last year
+               </div>
+          </div>
+         
+        </div>
+    </div>
+    
+    
+    <div class="Full-Div">
+        <div >
+            <img class="photo1" src="hq720 (1).webp">
+        </div>
+      
+        <div class="All-photo-and-html-Div">
+          <div>
+              <img class="photo2" src="channels4_profile (1).jpg">
+          </div>
+      
+          <!--  html div only  -->
+          <div>
+              <div class="html1">
+                  HTML-Prophecy
+               </div>
+               <div class="html2">
+                 tough times never last, but strong people do!!
+               </div>
+               <div class="html3">
+                 22k views . last year
+               </div>
+          </div>
+         
+        </div>
+    </div>
+    
+    
+    <div class="Full-Div">
+        <div >
+            <img class="photo1" src="hq720 (1).webp">
+        </div>
+      
+        <div class="All-photo-and-html-Div">
+          <div>
+              <img class="photo2" src="channels4_profile (1).jpg">
+          </div>
+      
+          <!--  html div only  -->
+          <div>
+              <div class="html1">
+                  HTML-Prophecy
+               </div>
+               <div class="html2">
+                 tough times never last, but strong people do!!
+               </div>
+               <div class="html3">
+                 22k views . last year
+               </div>
+          </div>
+         
+        </div>
+    </div>
+    
+    
+    <div class="Full-Div">
+        <div >
+            <img class="photo1" src="hq720 (1).webp">
+        </div>
+      
+        <div class="All-photo-and-html-Div">
+          <div>
+              <img class="photo2" src="channels4_profile (1).jpg">
+          </div>
+      
+          <!--  html div only  -->
+          <div>
+              <div class="html1">
+                  HTML-Prophecy
+               </div>
+               <div class="html2">
+                 tough times never last, but strong people do!!
+               </div>
+               <div class="html3">
+                 22k views . last year
+               </div>
+          </div>
+         
+        </div>
+    </div>
+    
+    
+    <div class="Full-Div">
+        <div >
+            <img class="photo1" src="hq720 (1).webp">
+        </div>
+      
+        <div class="All-photo-and-html-Div">
+          <div>
+              <img class="photo2" src="channels4_profile (1).jpg">
+          </div>
+      
+          <!--  html div only  -->
+          <div>
+              <div class="html1">
+                  HTML-Prophecy
+               </div>
+               <div class="html2">
+                 tough times never last, but strong people do!!
+               </div>
+               <div class="html3">
+                 22k views . last year
+               </div>
+          </div>
+         
+        </div>
+    </div>
+    
+    
+    <div class="Full-Div">
+        <div >
+            <img class="photo1" src="hq720 (1).webp">
+        </div>
+      
+        <div class="All-photo-and-html-Div">
+          <div>
+              <img class="photo2" src="channels4_profile (1).jpg">
+          </div>
+      
+          <!--  html div only  -->
+          <div>
+              <div class="html1">
+                  HTML-Prophecy
+               </div>
+               <div class="html2">
+                 tough times never last, but strong people do!!
+               </div>
+               <div class="html3">
+                 22k views . last year
+               </div>
+          </div>
+         
+        </div>
+    </div>
+    
+    
+    <div class="Full-Div">
+        <div >
+            <img class="photo1" src="hq720 (1).webp">
+        </div>
+      
+        <div class="All-photo-and-html-Div">
+          <div>
+              <img class="photo2" src="channels4_profile (1).jpg">
+          </div>
+      
+          <!--  html div only  -->
+          <div>
+              <div class="html1">
+                  HTML-Prophecy
+               </div>
+               <div class="html2">
+                 tough times never last, but strong people do!!
+               </div>
+               <div class="html3">
+                 22k views . last year
+               </div>
+          </div>
+         
+        </div>
+    </div>
+
+    <div class="Full-Div">
+        <div >
+            <img class="photo1" src="hq720 (1).webp">
+        </div>
+      
+        <div class="All-photo-and-html-Div">
+          <div>
+              <img class="photo2" src="channels4_profile (1).jpg">
+          </div>
+      
+          <!--  html div only  -->
+          <div>
+              <div class="html1">
+                  HTML-Prophecy
+               </div>
+               <div class="html2">
+                 tough times never last, but strong people do!!
+               </div>
+               <div class="html3">
+                 22k views . last year
+               </div>
+          </div>
+         
+        </div>
+    </div>
+    
+    
+    <div class="Full-Div">
+        <div >
+            <img class="photo1" src="hq720 (1).webp">
+        </div>
+      
+        <div class="All-photo-and-html-Div">
+          <div>
+              <img class="photo2" src="channels4_profile (1).jpg">
+          </div>
+      
+          <!--  html div only  -->
+          <div>
+              <div class="html1">
+                  HTML-Prophecy
+               </div>
+               <div class="html2">
+                 tough times never last, but strong people do!!
+               </div>
+               <div class="html3">
+                 22k views . last year
+               </div>
+          </div>
+         
+        </div>
+    </div>
+      
+ </section>
+
+
+
+
+    </body>
+    </html>

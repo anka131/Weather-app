@@ -1,1 +1,10 @@
-/*# sourceMappingURL=globals.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+:root body {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+:root h1, :root h2, :root h3, :root h4, :root h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}/*# sourceMappingURL=globals.css.map */

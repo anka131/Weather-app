@@ -1,0 +1,14 @@
+@import 'vars.scss';
+:root{
+    body{
+        color: $color;
+        font-family: $main-font;
+        font-weight: 300;
+    }
+    h1,h2,h3,h4,h5{
+        font-family: $main-font;
+        font-weight: 300;
+    }
+}
+
+
